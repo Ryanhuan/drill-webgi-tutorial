@@ -5,7 +5,7 @@
     "jsx": "preserve",
     "esModuleInterop": true,
     "sourceMap": true,
-    "allowJs": true,
+    // "allowJs": true,
     "module": "es6",
     "target": "es6",
     "lib": [
@@ -13,6 +13,8 @@
       "dom"
     ],
     "rootDir": "src",
-    "moduleResolution": "node"
-  }
+    "moduleResolution": "node",
+    "outDir": "./dist"
+  },
+  "exclude": ["node_modules", "dist"]
 }
